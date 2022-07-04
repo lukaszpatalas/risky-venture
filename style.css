@@ -1,0 +1,284 @@
+/* General CSS rules */
+html {
+    box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+body {
+    font-family: 'Roboto', 'Helvetica', sans-serif;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100vw;
+    overflow-x: hidden;
+}
+
+.main-container {
+    width: 100%;
+}
+
+/* Header CSS rules */
+
+header {
+    display: flex;
+    flex-direction: column;
+    background-color: #1F2937;
+    min-height: 450px;
+    width: 100%;
+    padding-top: 10px;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+
+h1 {
+    margin: 0;
+    padding: 0;
+    color: #ffffff;
+    font-size: 24px;
+}
+
+h1,
+ul {
+    width: 35%;
+}
+
+.header-menu {
+    display: flex;
+    list-style: none;
+    gap: 35px;
+    margin: 0;
+    padding: 0;
+    justify-content: flex-end;
+}
+
+.header-menu>li>a {
+    color: #FFFFFF;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.header-main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: auto;
+    gap: 15px;
+}
+
+.header-left,
+.header-right {
+    width: 35%;
+    height: 220px;
+}
+
+.header-left {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+h2 {
+    color: #ffffff;
+    font-size: 48px;
+    font-weight: 900;
+    margin: 0;
+}
+
+.header-left>p {
+    color: #ffffff;
+    font-size: 16px;
+    margin: 0;
+    line-height: 1.5;
+}
+
+.header-button {
+    color: #ffffff;
+    background-color: #3882F6;
+    font-size: 16px;
+    font-weight: 900;
+    padding: 6px 30px;
+    border: 1px solid #3882F6;
+    border-radius: 5px;
+    width: 125px;
+    margin-top: 15px;
+}
+
+.test-button {
+    padding: 6px 10px;
+}
+
+.test-button:hover {
+    color: #3882F6;
+    background-color: #ffffff;
+    border: 1px solid #ffffff;
+}
+
+.header-right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #A9A9A9;
+}
+
+.header-right>p {
+    color: #ffffff;
+}
+
+/* Section-one CSS rules */
+
+.section-one {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: 100%;
+    padding-bottom: 36px;
+}
+
+h3 {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937
+}
+
+.all-info {
+    display: flex;
+    justify-content: space-around;
+    width: 70%;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.blue-outline {
+    border: 3px solid #3882F6;
+    height: 115px;
+    border-radius: 15px;
+    width: 115px;
+}
+
+.blue-outline+p {
+    color: #1F2937;
+    width: 120px;
+    font-size: 16px;
+    margin: 0;
+    padding-top: 5px;
+    text-align: center;
+}
+
+/* Section-two CSS rules */
+
+.section-two {
+    display: flex;
+    flex-direction: column;
+    background-color: #E5E7EB;
+    width: 100%;
+    height: 350px;
+    justify-content: center;
+    align-items: center
+}
+
+.section-two-container {
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+}
+
+.section-two-container>p:nth-of-type(1) {
+    margin-top: 60px;
+    margin-bottom: 10px;
+    font-size: 26px;
+    text-align: left;
+    font-weight: 300;
+    font-style: italic;
+    line-height: 1.3;
+}
+
+.section-two-container>p:nth-of-type(2) {
+    align-self: flex-end;
+    margin-right: 30px;
+    margin-top: 0;
+    font-size: 22px;
+    font-weight: 500;
+}
+
+/* Section-three CSS rules */
+
+.section-three {
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.blue-box {
+    display: flex;
+    background-color: #3882F6;
+    color: #ffffff;
+    padding: 50px 100px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 6px;
+    height: 75px;
+    width: 50%;
+    min-width: 600px;
+    gap: 20px;
+}
+
+.section-three-left {
+    width: 75%;
+}
+
+h4 {
+    margin-bottom: 0;
+    font-size: 22px;
+}
+
+.bluebox>.section-three-left>p {
+    margin-top: 5px;
+}
+
+.section-three-right {
+    display: flex;
+    justify-content: flex-end;
+    width: 30%;
+}
+
+.section-three-button {
+    width: 150px;
+    font-size: 22px;
+    font-weight: 900;
+    border: 1.5px solid #ffffff;
+    padding: 6px 30px;
+    border-radius: 5px;
+    background-color: #3882F6;
+    color: #ffffff;
+}
+
+/* Footer CSS rules */
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    color: #ffffff;
+    background-color: #1F2937;
+    font-size: 16px;
+    height: 60px;
+}
