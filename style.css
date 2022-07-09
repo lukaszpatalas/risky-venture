@@ -28,7 +28,6 @@ body {
 header {
     display: flex;
     flex-direction: column;
-    background-color: #1F2937;
     min-height: 450px;
     width: 100%;
     padding-top: 10px;
@@ -175,7 +174,6 @@ h3 {
 .section-two {
     display: flex;
     flex-direction: column;
-    background-color: #E5E7EB;
     width: 100%;
     height: 350px;
     justify-content: center;
@@ -265,7 +263,6 @@ footer {
     justify-content: center;
     align-items: center;
     width: 100%;
-    background-color: #1F2937;
     font-size: 16px;
     height: 100%;
 }
@@ -290,4 +287,22 @@ h1, .header-menu>li>a, h2, .header-left>p, .header-button, .header-right>p, .blu
 
 h3, .blue-outline+p, .section-two-container>p {
     color: #1F2937;
+}
+
+/* Background color #1 */
+
+header, footer {
+    background-color: #1F2937;
+}
+
+/* Background color #2 */
+
+.section-one, .section-three {
+    background-color: #ffffff;
+}
+
+/* Background color #3 */
+
+.section-two {
+    background-color: #E5E7EB;
 }
