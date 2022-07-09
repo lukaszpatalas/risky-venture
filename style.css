@@ -215,7 +215,6 @@ h3 {
 
 .blue-box {
     display: flex;
-    background-color: #3882F6;
     padding: 50px 100px;
     justify-content: center;
     align-items: center;
@@ -275,7 +274,9 @@ footer p:first-of-type {
     margin-bottom: 0;
 }
 
-/* Enable easier switching between different pallets of colours */
+/*    ************************************************************    */
+/*    Enable easier switching between different pallets of colours    */
+/*    ************************************************************    */
 
 /* Primary font colours */
 
@@ -305,4 +306,10 @@ header, footer {
 
 .section-two {
     background-color: #E5E7EB;
+}
+
+/* Sign up box color */
+
+.blue-box {
+    background-color: #3882F6;
 }
