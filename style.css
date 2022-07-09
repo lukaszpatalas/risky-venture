@@ -263,12 +263,17 @@ h4 {
 
 footer {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     width: 100%;
     background-color: #1F2937;
     font-size: 16px;
-    height: 60px;
+    height: 100%;
+}
+
+footer p:first-of-type {
+    margin-bottom: 0;
 }
 
 /* Enable easier switching between different pallets of colours */
