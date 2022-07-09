@@ -100,11 +100,9 @@ h2 {
 }
 
 .header-button {
-    background-color: #536DFE;
     font-size: 16px;
     font-weight: 900;
     padding: 6px 30px;
-    border: 1px solid #ffffff;
     border-radius: 5px;
     width: 125px;
     margin-top: 15px;
@@ -255,10 +253,7 @@ h4 {
     width: 150px;
     font-size: 22px;
     font-weight: 900;
-    border: 1.5px solid #ffffff;
     padding: 6px 30px;
-    border-radius: 5px;
-    background-color: #3882F6;
 }
 
 /* Footer CSS rules */
@@ -305,14 +300,14 @@ footer a {
 h3,
 .blue-outline+p,
 .section-two-container>p {
-    color: #1F2937;
+    color: #212121;
 }
 
 /* Background color #1 */
 
 header,
 footer {
-    background-color: #1976D2;
+    background-color: #303F9F;
 }
 
 /* Background color #2 */
@@ -325,13 +320,25 @@ footer {
 /* Background color #3 */
 
 .section-two {
-    background-color: #E5E7EB;
+    background-color: #CFD8DC;
 }
 
 /* Sign up box color */
 
 .blue-box {
-    background-color: #3882F6;
+    background-color: #448AFF;
 }
 
+/* Header sign up button */ 
+
+.header-button {
+    background-color: #536DFE;
+    border: 1px solid #ffffff;
+}
+
+.section-three-button {
+    background-color: #3882F6;
+    border-radius: 5px;
+    border: 1px solid #ffffff;
+}
 /* https://www.materialpalette.com/blue/indigo */
