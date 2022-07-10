@@ -70,7 +70,7 @@ ul {
     justify-content: center;
     align-items: center;
     flex: auto;
-    gap: 15px;
+    gap: 20px;
 }
 
 .header-left,
@@ -125,8 +125,8 @@ h2 {
 }
 
 .header-right img {
-    max-width: 100%;
-    max-height: 100%;
+    width: 550px;
+    height: auto;
     border-radius: 15px;
 }
 
@@ -149,7 +149,7 @@ h3 {
     display: flex;
     justify-content: space-around;
     width: 70%;
-    gap: 30px;
+    gap: 50px;
     flex-wrap: wrap;
 }
 
@@ -157,13 +157,7 @@ h3 {
     display: flex;
     flex-direction: column;
     align-items: center;
-}
-
-.blue-outline {
-    border: 3px solid #3882F6;
-    height: 115px;
-    border-radius: 15px;
-    width: 115px;
+    width: 20%;
 }
 
 .blue-outline+p {
@@ -329,7 +323,7 @@ footer {
     background-color: #448AFF;
 }
 
-/* Header sign up button */ 
+/* Header sign up button */
 
 .header-button {
     background-color: #536DFE;
@@ -341,4 +335,5 @@ footer {
     border-radius: 5px;
     border: 1px solid #ffffff;
 }
+
 /* https://www.materialpalette.com/blue/indigo */
