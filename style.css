@@ -53,6 +53,12 @@ ul {
     width: 50%;
 }
 
+.imgWrapper img {
+    width: 262px;
+    height: 45px;
+    padding-top: 5px;
+}
+
 .header-menu {
     display: flex;
     list-style: none;
