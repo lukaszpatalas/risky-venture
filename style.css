@@ -29,6 +29,7 @@ body {
     width: 100vw;
     display: flex;
     justify-content: center;
+    position: fixed;
 }
 
 header {
@@ -36,6 +37,7 @@ header {
     flex-direction: column;
     min-height: 450px;
     width: 100%;
+    margin-top: 60px;
 }
 
 nav {
@@ -54,8 +56,18 @@ ul {
 
 .imgWrapper img {
     width: 290px;
-    height: 63px;
+    height: 60px;
     padding: 10px 10px 10px 10px;
+}
+
+.imgWrapper a {
+    display: block;
+    height: 60px;
+    width: 290px;
+}
+
+.imgWrapper a:hover {
+    background-color: #448AFF;
 }
 
 .header-menu {
