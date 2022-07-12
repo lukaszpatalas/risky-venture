@@ -36,7 +36,6 @@ header {
     flex-direction: column;
     min-height: 450px;
     width: 100%;
-    padding-top: 10px;
 }
 
 nav {
@@ -166,6 +165,11 @@ h2 {
     flex-direction: column;
     align-items: center;
     width: 20%;
+}
+
+.info img {
+    width: 135px;
+    height: 135px;
 }
 
 .info p {
