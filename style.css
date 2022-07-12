@@ -154,7 +154,7 @@ h1 {
 .header-right img {
     width: 550px;
     height: auto;
-    border-radius: 15px;
+    border-radius: 5px;
 }
 
 /* Section-one CSS rules */
@@ -217,7 +217,7 @@ h2 {
     display: flex;
     flex-direction: column;
     border: 1px solid #212121;
-    border-radius: 15px;
+    border-radius: 5px;
     background: rgba(25, 118, 210, 1);
     padding: 0 40px;
 }
@@ -253,7 +253,7 @@ h2 {
     padding: 50px 100px;
     justify-content: center;
     align-items: center;
-    border-radius: 6px;
+    border-radius: 5px;
     height: 75px;
     width: 50%;
     min-width: 600px;
@@ -373,10 +373,21 @@ footer {
     border: 1px solid #ffffff;
 }
 
+.header-button:hover {
+    background-color: #3882F6;
+    cursor: pointer;
+}
+
 .section-three-button {
     background-color: #3F51B5;
     border-radius: 5px;
     border: 1px solid #ffffff;
 }
+
+.section-three-button:hover {
+    background-color: #3882F6;
+    cursor: pointer;
+}
+
 
 /* https://www.materialpalette.com/blue/indigo */
