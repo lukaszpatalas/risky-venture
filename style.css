@@ -54,8 +54,8 @@ ul {
 
 .imgWrapper img {
     width: 262px;
-    height: 45px;
-    padding-top: 5px;
+    height: 63px;
+    padding: 10px 10px 10px 10px;
 }
 
 .header-menu {
@@ -72,7 +72,7 @@ ul {
     font-size: 18px;
     font-weight: bolder;
     display: block;
-    padding: 21px 30px;
+    padding: 19px 30px;
     text-transform: uppercase;
 }
 
